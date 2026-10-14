@@ -1,16 +1,9 @@
-import {
-  Refine,
-  GitHubBanner,
-  WelcomePage,
-  Authenticated,
-} from "@refinedev/core";
+import { Refine } from "@refinedev/core";
 import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 
 import { BrowserRouter, Route, Routes, Outlet } from "react-router";
 import routerProvider, {
-  NavigateToResource,
-  CatchAllNavigate,
   UnsavedChangesNotifier,
   DocumentTitleHandler,
 } from "@refinedev/react-router";
